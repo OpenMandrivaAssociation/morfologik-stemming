@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          morfologik-stemming
 Version:       1.8.3
 Release:       2%{?dist}
