@@ -1,7 +1,8 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          morfologik-stemming
 Version:       1.8.3
-Release:       2%{?dist}
+Release:       2.1
+Group:		Development/Java
 Summary:       Morfologik stemming library
 License:       BSD
 URL:           http://morfologik.blogspot.com/
@@ -13,7 +14,7 @@ BuildRequires: mvn(com.carrotsearch:hppc)
 BuildRequires: mvn(com.google.guava:guava)
 BuildRequires: mvn(commons-cli:commons-cli)
 BuildRequires: mvn(commons-lang:commons-lang)
-BuildRequires: mvn(org.sonatype.oss:oss-parent)
+BuildRequires: mvn(org.sonatype.oss:oss-parent:pom:)
 
 %if 0
 # test deps
