@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          morfologik-stemming
 Version:       1.8.3
-Release:       2.1
+Release:       2.2
 Group:		Development/Java
 Summary:       Morfologik stemming library
 License:       BSD
