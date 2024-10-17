@@ -6,7 +6,7 @@ Release:       6.1
 Summary:       Morfologik stemming library
 Group:         Development/Java
 License:       BSD
-URL:           http://morfologik.blogspot.com/
+URL:           https://morfologik.blogspot.com/
 Source0:       https://github.com/morfologik/morfologik-stemming/archive/%{version}.tar.gz
 
 BuildRequires: maven-local
